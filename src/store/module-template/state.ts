@@ -1,11 +1,13 @@
+/** @format */
+
 export interface ExampleStateInterface {
-    prop: boolean;
+	prop: boolean;
 }
 
 function state(): ExampleStateInterface {
-    return {
-        prop: true,
-    }
+	return {
+		prop: true,
+	};
 }
 
 export default state;
